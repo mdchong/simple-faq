@@ -101,7 +101,7 @@ textarea:not([rows]) {
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -111,27 +111,63 @@ html {
 body {
     background-color: var(--white-100);
     font-family: var(--body-font);
+    color: var(--gray-900);
+    max-width: 40rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* Header */
 .header {
     padding: 3rem;
+    margin: 0 auto;
 }
 
-.title {
+.big {
     font-size: var(--inter-36);
     font-weight: var(--semi-bold);
     text-align: center;
-    color: var(--gray-900);
     margin: 0;
 }
 
 .description {
     font-size: var(--inter-16);
-    color: var(--gray-900);
     text-align: center;
 }
 
+/* Main */
+
 main {
     background-color: var(--white-200);
+    width: 100%;
+    padding: 3rem 1.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section:not(.return) {
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.track {
+    padding-bottom: 2rem;
+}
+
+ul, ol {
+    padding: 1.2rem;
+}
+
+a:link {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.small {
+    margin: 0;
 }
