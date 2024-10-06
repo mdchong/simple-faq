@@ -77,3 +77,25 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
+/* Style Guide */
+
+:root{
+    /* Typography */
+    --body-font: 'Inter', sans-serif;
+
+    /* Font Weight */
+    --semi-bold: 600;
+    --regular: 400;
+
+    /* Font Size */
+    --inter-36: 2.25rem;
+    --inter-24:  1.5rem;
+    --inter-16: 1rem;
+
+    /* Color */
+    --blue: #4E80EE;
+    --gray-900: #030616;
+    --gray-200: #D2D5DA;
+    --white-200: #F8FAFC;
+    --white-100: #FFFFFF;
+}
