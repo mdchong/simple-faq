@@ -31,7 +31,7 @@ ol[role='list'] {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   line-height: 1.5;
 }
 
@@ -98,4 +98,40 @@ textarea:not([rows]) {
     --gray-200: #D2D5DA;
     --white-200: #F8FAFC;
     --white-100: #FFFFFF;
+}
+
+* {
+    border: 1px solid red;
+}
+
+html {
+    background-color: var(--gray-200);
+}
+
+body {
+    background-color: var(--white-100);
+    font-family: var(--body-font);
+}
+
+/* Header */
+.header {
+    padding: 3rem;
+}
+
+.title {
+    font-size: var(--inter-36);
+    font-weight: var(--semi-bold);
+    text-align: center;
+    color: var(--gray-900);
+    margin: 0;
+}
+
+.description {
+    font-size: var(--inter-16);
+    color: var(--gray-900);
+    text-align: center;
+}
+
+main {
+    background-color: var(--white-200);
 }
